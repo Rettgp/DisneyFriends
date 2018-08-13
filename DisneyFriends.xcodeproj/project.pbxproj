@@ -14,6 +14,7 @@
 		68D4BF9621210B4900E4CE09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D4BF9421210B4900E4CE09 /* LaunchScreen.storyboard */; };
 		68D4BFA121210B4900E4CE09 /* DisneyFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4BFA021210B4900E4CE09 /* DisneyFriendsTests.swift */; };
 		68D4BFAC21210B4900E4CE09 /* DisneyFriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4BFAB21210B4900E4CE09 /* DisneyFriendsUITests.swift */; };
+		68EAF84B212125FB00F9DF1D /* DisneyMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EAF84A212125FA00F9DF1D /* DisneyMapOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		68D4BFA721210B4900E4CE09 /* DisneyFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyFriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D4BFAB21210B4900E4CE09 /* DisneyFriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyFriendsUITests.swift; sourceTree = "<group>"; };
 		68D4BFAD21210B4900E4CE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68EAF84A212125FA00F9DF1D /* DisneyMapOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyMapOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				68D4BF9221210B4800E4CE09 /* Assets.xcassets */,
 				68D4BF9421210B4900E4CE09 /* LaunchScreen.storyboard */,
 				68D4BF9721210B4900E4CE09 /* Info.plist */,
+				68EAF84A212125FA00F9DF1D /* DisneyMapOverlay.swift */,
 			);
 			path = DisneyFriends;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				68D4BF8E21210B4800E4CE09 /* ViewController.swift in Sources */,
 				68D4BF8C21210B4800E4CE09 /* AppDelegate.swift in Sources */,
+				68EAF84B212125FB00F9DF1D /* DisneyMapOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
